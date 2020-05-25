@@ -1,0 +1,66 @@
+#Both 2 threads and 1 thread finished in same amounts of time
+#My pc is an 8 core 16 thread processor at ~5GHz
+
+
+adolf@Needler ~/Operating Systems/assign4
+$ make
+gcc -c -o part1.o part1.c
+gcc -o part1 part1.o
+
+adolf@Needler ~/Operating Systems/assign4
+$ ./part1.exe 100
+Sorting is done in 0.000000ms when two threads are used
+Sorting is done in 0.000000ms when one threads are used
+
+adolf@Needler ~/Operating Systems/assign4
+$ ./part1.exe 1000
+Sorting is done in 0.000000ms when two threads are used
+Sorting is done in 0.000000ms when one threads are used
+
+adolf@Needler ~/Operating Systems/assign4
+$ ./part1.exe 10000
+Sorting is done in 0.156000ms when two threads are used
+Sorting is done in 0.156000ms when one threads are used
+
+adolf@Needler ~/Operating Systems/assign4
+$ ./part1.exe 20000
+Sorting is done in 0.500000ms when two threads are used
+Sorting is done in 0.500000ms when one threads are used
+
+adolf@Needler ~/Operating Systems/assign4
+$ ./part1.exe 20000
+Sorting is done in 0.000000ms when two threads are used
+Sorting is done in 0.015000ms when one threads are used
+
+adolf@Needler ~/Operating Systems/assign4
+$ ./part1.exe 10000
+Sorting is done in 0.156000ms when two threads are used
+Sorting is done in 0.156000ms when one threads are used
+
+adolf@Needler ~/Operating Systems/assign4
+$ ./part1.exe 20000
+Sorting is done in 0.687000ms when two threads are used
+Sorting is done in 0.687000ms when one threads are used
+
+adolf@Needler ~/Operating Systems/assign4
+$ ./part1.exe 20000
+Sorting is done in 0.671000ms when two threads are used
+Sorting is done in 0.671000ms when one threads are used
+
+adolf@Needler ~/Operating Systems/assign4
+$ ./part1.exe 20000
+Sorting is done in 0.671000ms when two threads are used
+Sorting is done in 0.671000ms when one threads are used
+
+adolf@Needler ~/Operating Systems/assign4
+$ ./part1.exe 5000
+Sorting is done in 0.031000ms when 2 threads are used
+Sorting is done in 0.031000ms when one threads are used
+
+
+#part 4 output
+
+adolf@Needler ~/Operating Systems/assign4
+$ ./part1.exe 5000 3
+Sorting is done in 0.031000ms when 3 threads are used
+Sorting is done in 0.031000ms when one threads are used

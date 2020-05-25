@@ -1,0 +1,21 @@
+1. No collaboration
+2. Not sure since notes to go off of didn't have the most information compared to previous assignments.
+3. The sorting functions worked (when I printed them out) but I made a cap at 20000 for the size that can be passed.
+    My computer is also very fast (8c/16t @ 5GHz) meaning most of my execution times were the same for 2 threads as they were for 1 threads and oftentimes they were completed in 0 time or near 0 time.
+4. Not enough material to go off of and the clock function wasn't very accurate on my fast system.
+    Part 4 segfaults if an array that is bigger than ~1000 is passed with > 3 threads
+5. See part1Out.txt
+
+
+#Table shows unique outputs accross 5 runs each (C)
+ArraySize           Time 2 Threads      Time 1 Thread
+100                 0                   0
+1000                0                   0
+5000                0.031               0.031
+                    0.062               0.062
+10000               0.156               0.156
+                    0.14                0.14
+20000               0.0                 0.015
+                    0.5                 0.5
+                    0.687               0.687
+                    0.671               0.671
