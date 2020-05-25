@@ -1,0 +1,42 @@
+$ ./p0.exe 2 3 3
+Enter 2 integers
+4
+3
+
+Enter 3 doubles
+2
+1.2
+32
+
+Enter 3 lines
+hi
+general kenobi
+hello there
+
+Max Int: 4
+Max Dbl: 32.000000
+Max Line: general kenobi
+
+
+$ ./p0.exe 4 4 5
+Enter 4 integers
+1
+2
+3
+4
+
+Enter 4 doubles
+2
+3 4
+2
+
+Enter 5 lines
+hello ther
+hello there
+general kenobi
+we've been expecting you
+kill him
+
+Max Int: 4
+Max Dbl: 4.000000
+Max Line: we've been expecting you

@@ -1,0 +1,5 @@
+1. I worked on this assignment by myself
+2. I did not do everything exactly as the assignment showed primarily because I didn't read the given examples and I wanted to try
+and code it using only my knowledge and understanding of the algorithms
+3. N/A
+4. RR was probably the hardest to implement and SJF can be made simple by sorting the processes and then calling FIFO. 

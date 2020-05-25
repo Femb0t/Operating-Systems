@@ -1,0 +1,15 @@
+$ ./p0.exe input_file.txt 10wordfile.txt
+Child process for input_file.txt: number of words is 39
+Child process for 10wordfile.txt: number of words is 10
+All 2 files have been counted!
+
+adolf@Needler ~/Operating Systems/assign1
+$ ./p0.exe input_file.txt
+Child process for input_file.txt: number of words is 39
+All 1 files have been counted!
+
+adolf@Needler ~/Operating Systems/assign1
+$ ./p0.exe input_file.txt nonexistant.txt
+Child process for input_file.txt: number of words is 39
+ERROR: Input file doesn't exist: No such file or directory
+All 2 files have been counted!

@@ -1,0 +1,4 @@
+1. I worked 100% alone
+2. I don't think my code succesfully continues or error handles after inputing a charachter for integers or doubles. Everything else seems to work fine.
+3. Everything currently works under normal conditions (no characters inputting instead of int/doubles). If the output file doesn't exist when you pass it in as a parameter then it will create the file for you. otherwise it will overite whatever is in the file.
+4. I had trouble remembering the "complications" of C. It's a brutal language that isn't user friendly and took a while to remember how to do even rudimentary things other languages like python would handle with ease.

@@ -1,0 +1,4 @@
+1. Worked by myself (reusing some parts of my assign0 code to speed it up)
+2. Yes
+3. N/A
+4. I forgot to keep the final printout outside the fork if-else that caused some confusion for a little
